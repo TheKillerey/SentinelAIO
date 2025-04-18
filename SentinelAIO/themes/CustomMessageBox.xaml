@@ -1,0 +1,66 @@
+﻿<Window x:Class="SentinelAIO.Themes.CustomMessageBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Custom Message Box"
+        Height="250"
+        Width="600"
+        WindowStartupLocation="CenterScreen"
+        TextElement.Foreground="{DynamicResource MaterialDesignDarkForeground}"
+        Background="{DynamicResource MaterialDesignDarkBackground}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="{md:MaterialDesignFont}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Titel -->
+        <md:PackIcon x:Name="MessageIcon"
+                     Kind="InformationOutline"
+                     Grid.Row="0"
+                     Width="40"
+                     Height="40"
+                     Margin="16"
+                     HorizontalAlignment="Center"
+                     VerticalAlignment="Center"
+                     Foreground="{DynamicResource MaterialDesignDarkForeground}" />
+
+        <!-- Nachricht -->
+        <TextBlock x:Name="MessageText"
+                   Grid.Row="1"
+                   Text="Nothing."
+                   FontSize="16"
+                   TextWrapping="Wrap"
+                   Margin="16"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center" />
+
+        <!-- Buttons -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,16,0,16">
+            <!-- OK-Schaltfläche -->
+            <Button x:Name="BtnOk"
+                    Content="OK"
+                    Click="BtnOk_Click"
+                    Style="{StaticResource MaterialDesignRaisedButton}"
+                    Margin="4,0"
+                    Width="150" />
+
+            <!-- Abbrechen-Schaltfläche -->
+            <Button x:Name="BtnCancel"
+                    Content="Cancel"
+                    Click="BtnCancel_Click"
+                    Style="{StaticResource MaterialDesignRaisedButton}"
+                    Margin="4,0"
+                    Width="150" />
+
+        </StackPanel>
+    </Grid>
+</Window>

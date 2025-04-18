@@ -1,0 +1,75 @@
+﻿<Window x:Class="SentinelAIO.Themes.MapValuesEditor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Edit Map Replacement Values"
+        Height="400"
+        Width="600"
+        WindowStartupLocation="CenterScreen"
+        Background="{DynamicResource MaterialDesignDarkBackground}"
+        TextElement.Foreground="{DynamicResource MaterialDesignDarkForeground}"
+        FontFamily="{md:MaterialDesignFont}"
+        TextElement.FontSize="14">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Input Fields -->
+        <StackPanel Orientation="Vertical" Margin="0">
+
+            <TextBlock Text="Map Container"
+                       FontSize="16"
+                       FontWeight="Medium" />
+            <TextBox x:Name="TxtMapContainer"
+                     Text="{Binding MapContainer, UpdateSourceTrigger=PropertyChanged}"
+                     Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                     Width="500" />
+
+            <TextBlock Text="Objects CFG"
+                       FontSize="16"
+                       FontWeight="Medium" />
+            <TextBox x:Name="TxtObjectsCFG"
+                     Text="{Binding ObjectsCFG, UpdateSourceTrigger=PropertyChanged}"
+                     Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                     Width="500" />
+
+            <TextBlock Text="Particles INI"
+                       FontSize="16"
+                       FontWeight="Medium" />
+            <TextBox x:Name="TxtParticlesINI"
+                     Text="{Binding ParticlesINI, UpdateSourceTrigger=PropertyChanged}"
+                     Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                     Width="500" />
+
+            <TextBlock Text="Grass Tint Texture"
+                       FontSize="16"
+                       FontWeight="Medium" />
+            <TextBox x:Name="TxtGrassTintTexture"
+                     Text="{Binding GrassTintTexture, UpdateSourceTrigger=PropertyChanged}"
+                     Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                     Width="500" />
+
+        </StackPanel>
+
+        <!-- Action Buttons -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+            <Button x:Name="BtnSave"
+                    Content="Save"
+                    Click="BtnSave_Click"
+                    Style="{StaticResource MaterialDesignRaisedButton}"
+                    Width="100"
+                    Margin="0,0,10,0" />
+            <Button x:Name="BtnCancel"
+                    Content="Cancel"
+                    Click="BtnCancel_Click"
+                    Style="{StaticResource MaterialDesignRaisedButton}"
+                    Width="100" />
+        </StackPanel>
+    </Grid>
+</Window>

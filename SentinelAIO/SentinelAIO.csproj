@@ -1,0 +1,348 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+        <ApplicationIcon>sentinel_icon_new_icon.ico</ApplicationIcon>
+        <TargetFramework>net9.0-windows</TargetFramework>
+        <NeutralLanguage>en</NeutralLanguage>
+        <AssemblyVersion>0.0.3</AssemblyVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <LangVersion>default</LangVersion>
+        <Version>0.0.2</Version>
+        <Title>SentinelAIO</Title>
+        <Authors>TheKillerey</Authors>
+        <Description>A tool to help map modding in League of Legends</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Remove="Images\logo_sentinelaio.jpg"/>
+        <Content Include="Images\logo_sentinelaio.jpg">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Fonts\JetBrainsMono-Bold.ttf"/>
+        <PackageReference Include="LeagueToolkit.IO.Extensions" Version="4.0.0-beta.52"/>
+        <PackageReference Include="Magick.NET-Q8-AnyCPU" Version="14.5.0"/>
+        <PackageReference Include="MaterialDesignColors" Version="5.2.2-ci921"/>
+        <PackageReference Include="MaterialDesignThemes" Version="5.2.2-ci921"/>
+        <PackageReference Include="MaterialDesignThemes.MahApps" Version="5.2.2-ci921"/>
+        <PackageReference Include="MaterialDesignThemes.Wpf" Version="1.0.1"/>
+        <PackageReference Include="MaterialMessageBox" Version="4.0.2"/>
+        <PackageReference Include="Pfim" Version="0.11.3"/>
+        <PackageReference Include="ShowMeTheXAML" Version="2.0.0"/>
+        <PackageReference Include="ShowMeTheXAML.MSBuild" Version="2.0.0"/>
+        <PackageReference Include="SixLabors.ImageSharp" Version="3.1.7"/>
+        <PackageReference Include="System.Drawing.Common" Version="10.0.0-preview.1.25080.3"/>
+        <Resource Include="Fonts\JetBrainsMono-Bold.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMono-BoldItalic.ttf"/>
+        <Resource Include="Fonts\JetBrainsMono-BoldItalic.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMono-ExtraBold.ttf"/>
+        <Resource Include="Fonts\JetBrainsMono-ExtraBold.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMono-ExtraBoldItalic.ttf"/>
+        <Resource Include="Fonts\JetBrainsMono-ExtraBoldItalic.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMono-ExtraLight.ttf"/>
+        <Resource Include="Fonts\JetBrainsMono-ExtraLight.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMono-ExtraLightItalic.ttf"/>
+        <Resource Include="Fonts\JetBrainsMono-ExtraLightItalic.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMono-Italic.ttf"/>
+        <Resource Include="Fonts\JetBrainsMono-Italic.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMono-Light.ttf"/>
+        <Resource Include="Fonts\JetBrainsMono-Light.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMono-LightItalic.ttf"/>
+        <Resource Include="Fonts\JetBrainsMono-LightItalic.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMono-Medium.ttf"/>
+        <Resource Include="Fonts\JetBrainsMono-Medium.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMono-MediumItalic.ttf"/>
+        <Resource Include="Fonts\JetBrainsMono-MediumItalic.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMono-Regular.ttf"/>
+        <Resource Include="Fonts\JetBrainsMono-Regular.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMono-SemiBold.ttf"/>
+        <Resource Include="Fonts\JetBrainsMono-SemiBold.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMono-SemiBoldItalic.ttf"/>
+        <Resource Include="Fonts\JetBrainsMono-SemiBoldItalic.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMono-Thin.ttf"/>
+        <Resource Include="Fonts\JetBrainsMono-Thin.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMono-ThinItalic.ttf"/>
+        <Resource Include="Fonts\JetBrainsMono-ThinItalic.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMonoNL-Bold.ttf"/>
+        <Resource Include="Fonts\JetBrainsMonoNL-Bold.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMonoNL-BoldItalic.ttf"/>
+        <Resource Include="Fonts\JetBrainsMonoNL-BoldItalic.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMonoNL-ExtraBold.ttf"/>
+        <Resource Include="Fonts\JetBrainsMonoNL-ExtraBold.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMonoNL-ExtraBoldItalic.ttf"/>
+        <Resource Include="Fonts\JetBrainsMonoNL-ExtraBoldItalic.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMonoNL-ExtraLight.ttf"/>
+        <Resource Include="Fonts\JetBrainsMonoNL-ExtraLight.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMonoNL-ExtraLightItalic.ttf"/>
+        <Resource Include="Fonts\JetBrainsMonoNL-ExtraLightItalic.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMonoNL-Italic.ttf"/>
+        <Resource Include="Fonts\JetBrainsMonoNL-Italic.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMonoNL-Light.ttf"/>
+        <Resource Include="Fonts\JetBrainsMonoNL-Light.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMonoNL-LightItalic.ttf"/>
+        <Resource Include="Fonts\JetBrainsMonoNL-LightItalic.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMonoNL-Medium.ttf"/>
+        <Resource Include="Fonts\JetBrainsMonoNL-Medium.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMonoNL-MediumItalic.ttf"/>
+        <Resource Include="Fonts\JetBrainsMonoNL-MediumItalic.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMonoNL-Regular.ttf"/>
+        <Resource Include="Fonts\JetBrainsMonoNL-Regular.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMonoNL-SemiBold.ttf"/>
+        <Resource Include="Fonts\JetBrainsMonoNL-SemiBold.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMonoNL-SemiBoldItalic.ttf"/>
+        <Resource Include="Fonts\JetBrainsMonoNL-SemiBoldItalic.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMonoNL-Thin.ttf"/>
+        <Resource Include="Fonts\JetBrainsMonoNL-Thin.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Fonts\JetBrainsMonoNL-ThinItalic.ttf"/>
+        <PackageReference Include="DiscordRichPresence" Version="1.2.1.24"/>
+        <PackageReference Include="LeagueToolkit" Version="4.0.0-beta.52"/>
+        <PackageReference Include="LeagueToolkit.Meta.Classes" Version="4.0.0-beta.52"/>
+        <PackageReference Include="LeagueToolkit.Meta.Dump" Version="4.0.0-beta.52"/>
+        <PackageReference Include="Material.Icons.WPF" Version="2.3.1"/>
+        <Resource Include="Fonts\JetBrainsMonoNL-ThinItalic.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Images\blurred_kali_wp.jpg"/>
+        <Content Include="Images\blurred_kali_wp.jpg">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Fonts\Vengeance.ttf"/>
+        <Resource Include="Fonts\Vengeance.ttf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Images\background_matrix_blurred.jpg"/>
+        <Content Include="Images\background_matrix_blurred.jpg">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\blurred_matrix_background.png"/>
+        <Content Include="Images\blurred_matrix_background.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\sentinel_background.png"/>
+        <Content Include="Images\sentinel_background.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\UI\button_test.png"/>
+        <Content Include="Images\UI\button_test.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\UI\mod_updater_btn.png"/>
+        <Content Include="Images\UI\mod_updater_btn.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\UI\converters_btn.png"/>
+        <Content Include="Images\UI\converters_btn.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\UI\map_editor_btn.png"/>
+        <Content Include="Images\UI\map_editor_btn.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\UI\matrix_helper_btn.png"/>
+        <Content Include="Images\UI\matrix_helper_btn.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\UI\recolorer_btn.png"/>
+        <Content Include="Images\UI\recolorer_btn.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\UI\logo_ui.png"/>
+        <Content Include="Images\UI\logo_ui.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\new_background.png"/>
+        <Content Include="Images\new_background.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\UI\converters_btn_hover.png"/>
+        <Content Include="Images\UI\converters_btn_hover.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\UI\map_editor_btn_hover.png"/>
+        <Content Include="Images\UI\map_editor_btn_hover.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\UI\matrix_helper_btn_hover.png"/>
+        <Content Include="Images\UI\matrix_helper_btn_hover.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\UI\mod_updater_btn_hover.png"/>
+        <Content Include="Images\UI\mod_updater_btn_hover.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\UI\recolorer_btn_hover.png"/>
+        <Content Include="Images\UI\recolorer_btn_hover.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\no_thumbnail.png"/>
+        <Content Include="Images\no_thumbnail.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="GZSkinsX.Kernel.dll"/>
+        <None Remove="Images\UI\logo_sentinelaio_v2.png"/>
+        <Content Include="Images\UI\logo_sentinelaio_v2.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Files\blacklist.txt"/>
+        <None Remove="Files\Whitelist.txt"/>
+        <None Remove="Files\set7_shimmerstone.materials.bin.py"/>
+        <Content Update="Files\particle_template.py">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="OtherTools\tex2dds.exe"/>
+        <Content Include="OtherTools\tex2dds.exe">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Files\default_template_fullmap_map11levels.py"/>
+        <None Remove="Files\default_template_fullmap_map11.py"/>
+        <Page Remove="themes\materialdesigntheme.defaults.xaml"/>
+        <None Remove="Files\DefaultMinions.json"/>
+        <Content Include="Files\DefaultMinions.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="OtherTools\ritobin_cli.exe"/>
+        <Content Include="OtherTools\ritobin_cli.exe">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Page Update="themes\MapValuesEditor.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <XamlRuntime>Wpf</XamlRuntime>
+            <SubType>Designer</SubType>
+        </Page>
+        <Page Update="themes\SkinEditorWindow.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <XamlRuntime>Wpf</XamlRuntime>
+            <SubType>Designer</SubType>
+        </Page>
+        <None Remove="OtherTools\hashes\wad-make.exe"/>
+        <Content Include="OtherTools\hashes\wad-make.exe">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="OtherTools\hashes\wad-extract.exe"/>
+        <Content Include="OtherTools\hashes\wad-extract.exe">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="OtherTools\rman-dl.exe"/>
+        <Content Include="OtherTools\rman-dl.exe">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="OtherTools\ManifestFiles\15.1.txt"/>
+        <Content Include="OtherTools\ManifestFiles\15.1.txt">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="OtherTools\ManifestFiles\15.2.txt"/>
+        <Content Include="OtherTools\ManifestFiles\15.2.txt">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="OtherTools\ManifestFiles\15.3.txt"/>
+        <Content Include="OtherTools\ManifestFiles\15.3.txt">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="OtherTools\ManifestFiles\15.4.txt"/>
+        <Content Include="OtherTools\ManifestFiles\15.4.txt">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="OtherTools\ManifestFiles\15.5.txt"/>
+        <Content Include="OtherTools\ManifestFiles\15.5.txt">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="OtherTools\ManifestFiles\15.6.txt"/>
+        <Content Include="OtherTools\ManifestFiles\15.6.txt">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="OtherTools\ManifestFiles\15.7.txt"/>
+        <Content Include="OtherTools\ManifestFiles\15.7.txt">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\sentinel_background_new.jpg"/>
+        <Content Include="Images\sentinel_background_new.jpg">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\sentinel_logo_new25.png"/>
+        <Content Include="Images\sentinel_logo_new25.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="Images\sentinel_background_2.jpg"/>
+        <Content Include="Images\sentinel_background_2.jpg">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="OtherTools\ManifestFiles\15.9.txt"/>
+        <Content Include="OtherTools\ManifestFiles\15.9.txt">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="OtherTools\ManifestFiles\15.8.txt"/>
+        <Content Include="OtherTools\ManifestFiles\15.8.txt">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="OtherTools\hashes\"/>
+    </ItemGroup>
+
+</Project>

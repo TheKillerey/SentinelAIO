@@ -1,0 +1,45 @@
+﻿<Window x:Class="SentinelAIO.themes.ManifestDownloader"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:SentinelAIO.ViewModel"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Manifest Downloader" Height="450" Width="800"
+        TextElement.Foreground="{DynamicResource MaterialDesignDarkForeground}"
+        Background="{DynamicResource MaterialDesignDarkBackground}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="{materialDesign:MaterialDesignFont}">
+
+    <Window.DataContext>
+        <local:ManifestDownloaderViewModel />
+    </Window.DataContext>
+
+    <Grid Margin="10">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Width="300">
+            <TextBlock Text="Select Patch Version" FontSize="14" FontWeight="Bold" Margin="0,0,0,10" />
+            <ComboBox ItemsSource="{Binding PatchVersions}"
+                      SelectedItem="{Binding SelectedPatchVersion}" Width="200" Margin="0,0,0,20" />
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Width="200" Margin="0,0,0,0">
+            <Button Content="Download Manifest" Height="30" Margin="0,0,0,10"
+                    Command="{Binding DownloadManifestCommand}" />
+            <Button Content="Download Files" Height="30" Margin="0,0,0,10"
+                    Command="{Binding DownloadFilesCommand}" />
+        </StackPanel>
+
+        <Border BorderBrush="Gray" BorderThickness="1" Margin="0,100,0,10" AllowDrop="True"
+                Background="DimGray" Drop="UIElement_OnDrop">
+            <TextBlock Text="Drag and Drop .wad.client files here to extract"
+                       VerticalAlignment="Center" HorizontalAlignment="Center" FontStyle="Italic" />
+        </Border>
+
+        <TextBox Text="{Binding OutputLog}" VerticalAlignment="Bottom" Height="150"
+                 IsReadOnly="True" TextWrapping="Wrap"
+                 Background="DarkSlateGray" Foreground="White" FontFamily="Consolas"
+                 Name="LogTextBox" TextChanged="LogTextBox_TextChanged" />
+    </Grid>
+</Window>

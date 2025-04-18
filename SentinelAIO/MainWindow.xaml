@@ -1,0 +1,137 @@
+﻿<Window x:Class="SentinelAIO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:viewModel="clr-namespace:SentinelAIO.ViewModel"
+
+        mc:Ignorable="d"
+        Title="SentinelAIO - Home" Height="850" Width="1500"
+        TextElement.Foreground="{DynamicResource MaterialDesignDarkForeground}"
+        Background="{DynamicResource MaterialDesignDarkForeground}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="{materialDesign:MaterialDesignFont}">
+    <Window.DataContext>
+        <viewModel:MainWindowViewModel />
+    </Window.DataContext>
+
+    <!-- Dialog Host -->
+    <materialDesign:DialogHost x:Name="DialogHost" IsOpen="{Binding IsDialogOpen}" CloseOnClickAway="True">
+        <materialDesign:DialogHost.DialogContent>
+            <!-- This is your Dialog content -->
+            <Grid>
+                <StackPanel Margin="20">
+                    <TextBlock Text="SETTINGS" HorizontalAlignment="Center" />
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Automatic Hash Updates" Margin="20" />
+                        <ToggleButton x:Name="AutoDownloadsEnabledBtn"
+                                      IsChecked="{Binding TempAutoDownloadsEnabled, Mode=TwoWay}"
+
+                                      Style="{StaticResource MaterialDesignSwitchToggleButton}"
+                                      materialDesign:ToggleButtonAssist.SwitchTrackOnBackground="Green" />
+
+                    </StackPanel>
+                    <TextBlock Text="League of Legends Game Folder:" Margin="20,10,0,5" />
+                    <StackPanel Orientation="Horizontal" Margin="20">
+                        <TextBox Text="{Binding LeagueOfLegendsFolderPath, UpdateSourceTrigger=PropertyChanged}"
+                                 Width="300" IsReadOnly="True" Margin="0,0,10,0"
+                                 Style="{StaticResource MaterialDesignTextBox}" />
+                        <Button Content="Browse" Command="{Binding BrowseFolderCommand}" Width="85"
+                                Style="{StaticResource MaterialDesignPaperDarkButton}" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+
+                        <Button Command="{Binding SaveSettingsCommand}" Margin="0,8,8,0" Content="Save"
+                                IsDefault="True" Style="{StaticResource MaterialDesignFlatButton}">
+                            <Button.CommandParameter>
+                                <system:Boolean xmlns:system="clr-namespace:System;assembly=mscorlib">
+                                    True
+                                </system:Boolean>
+                            </Button.CommandParameter>
+                        </Button>
+                        <Button Command="{Binding ExitCommand}" Margin="0,8,8,0" Content="Cancel" IsCancel="True"
+                                Style="{StaticResource MaterialDesignFlatButton}">
+                            <Button.CommandParameter>
+                                <system:Boolean xmlns:system="clr-namespace:System;assembly=mscorlib">
+                                    False
+                                </system:Boolean>
+                            </Button.CommandParameter>
+                        </Button>
+                    </StackPanel>
+
+                </StackPanel>
+            </Grid>
+
+        </materialDesign:DialogHost.DialogContent>
+
+        <!-- Content -->
+        <Grid Background="#04191a">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Image Grid.Row="0" Grid.RowSpan="2"
+                   Source="pack://application:,,,/SentinelAIO;component/Images/sentinel_background_new.jpg"
+                   Stretch="Fill"
+                   Opacity="0.2" />
+            <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,30">
+                <Grid Width="580" Height="380" HorizontalAlignment="Center" VerticalAlignment="Top"
+                      Margin="0,-200,0,0">
+
+                    <Grid Width="580" Height="380" HorizontalAlignment="Center" VerticalAlignment="Top"
+                          Margin="0,0,0,0">
+                        <Grid Width="580" Height="380" HorizontalAlignment="Center" VerticalAlignment="Top"
+                              Margin="0,0,0,0">
+                            <Image Source="/Images/sentinel_logo_new25.png" Stretch="Fill">
+                                <Image.Effect>
+                                    <DropShadowEffect Color="Black" BlurRadius="15" ShadowDepth="5" Opacity="0.5" />
+                                </Image.Effect>
+                            </Image>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </StackPanel>
+
+            <Grid Grid.Row="1">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal"
+                            MinHeight="50">
+                    <Button Width="150"
+                            Name="ModToolsBtn"
+                            Content="MOD TOOLS"
+                            Click="ModToolsBtn_OnClickModToolsBtn_Click"
+                            Margin="0,0,10,0"
+                            Style="{StaticResource MaterialDesignPaperDarkButton}"
+                            ToolTip="" />
+                    <Button
+                        Width="150"
+                        Content="SETTINGS"
+                        Command="{Binding OpenSettingsCommand}"
+                        Style="{StaticResource MaterialDesignPaperDarkButton}"
+                        ToolTip="" />
+                </StackPanel>
+                <materialDesign:Snackbar Style="{StaticResource {x:Type materialDesign:Snackbar}}" BorderThickness="5"
+                                         BorderBrush="#248679" Background="#00796B" Foreground="White" x:Name="InfoBox"
+                                         Margin="0,332,0,0" VerticalAlignment="Top" Height="57" Width="310" />
+            </Grid>
+
+            <Grid Grid.Row="2" Margin="0,0,0,0">
+                <StackPanel HorizontalAlignment="Center">
+                    <TextBlock x:Name="UpdateHashesText"
+                               Text="{Binding FileInfos, PresentationTraceSources.TraceLevel=High}"
+                               Style="{StaticResource MaterialDesignTextBlock}" />
+                    <ProgressBar x:Name="DownloadProgressBar" Height="10" Width="200"
+                                 Style="{StaticResource MaterialDesignLinearProgressBar}" />
+                </StackPanel>
+                <TextBlock HorizontalAlignment="Right"
+                           VerticalAlignment="Bottom"
+                           Margin="10"
+                           Foreground="White"
+                           Text="{Binding AppVersion}" />
+            </Grid>
+        </Grid>
+    </materialDesign:DialogHost>
+</Window>

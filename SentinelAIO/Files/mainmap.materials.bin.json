@@ -1,0 +1,3822 @@
+{
+  "Maps/MapGeometry/Map30/Chunks/Default/Audio_Data": {
+    "__type": "MapPlaceableContainer"
+  },
+  "Maps/MapGeometry/Map30/Chunks/Default/Design_Data": {
+    "__type": "MapPlaceableContainer",
+    "items": {
+      "{0698bcc5}": {
+        "__type": "MapLocator",
+        "name": "PlayerSpawnPoint3",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            9136.904296875,
+            -12.074999809265137,
+            7526.853515625,
+            1.0
+          ]
+        ]
+      },
+      "{208f31aa}": {
+        "__type": "MapLocator",
+        "name": "PlayPenSpawnPoint5",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            9145.83984375,
+            -11.0,
+            8060.6337890625,
+            1.0
+          ]
+        ]
+      },
+      "{26b599a6}": {
+        "__type": "MapLocator",
+        "name": "PlayerSpawnPoint7",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            9136.005859375,
+            -12.074999809265137,
+            9327.7724609375,
+            1.0
+          ]
+        ]
+      },
+      "{47091c6c}": {
+        "__type": "MapLocator",
+        "name": "PlayerSpawnPoint5",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            10037.7666015625,
+            -12.076000213623047,
+            8428.3447265625,
+            1.0
+          ]
+        ]
+      },
+      "{54936517}": {
+        "__type": "MapLocator",
+        "name": "BoardLocator",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            8418.955078125,
+            0.0,
+            10112.6943359375,
+            1.0
+          ]
+        ]
+      },
+      "{71653afd}": {
+        "__type": "MapLocator",
+        "name": "PlayPenSpawnPoint4",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            9392.83984375,
+            -11.0,
+            8163.6337890625,
+            1.0
+          ]
+        ]
+      },
+      "{7748bb4a}": {
+        "__type": "MapLocator",
+        "name": "PlayerSpawnPoint2",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            8499.25,
+            -12.074999809265137,
+            7790.9013671875,
+            1.0
+          ]
+        ]
+      },
+      "{84f1b916}": {
+        "__type": "MapLocator",
+        "name": "PlayerSpawnPoint4",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            9796.470703125,
+            -12.076000213623047,
+            9173.4169921875,
+            1.0
+          ]
+        ]
+      },
+      "{97ba4e60}": {
+        "__type": "MapLocator",
+        "name": "PlayerSpawnPoint1",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            8235.1572265625,
+            -12.074000358581543,
+            8427.7265625,
+            1.0
+          ]
+        ]
+      },
+      "{baeb19fe}": {
+        "__type": "MapLocator",
+        "name": "PlayerSpawnPoint6",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            9773.509765625,
+            -12.074999809265137,
+            9064.669921875,
+            1.0
+          ]
+        ]
+      },
+      "{c7d2a884}": {
+        "__type": "MapLocator",
+        "name": "PlayerSpawnPoint8",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            8499.57421875,
+            -12.074999809265137,
+            9064.375,
+            1.0
+          ]
+        ]
+      },
+      "{cf9cfc46}": {
+        "__type": "MapLocator",
+        "name": "Cherry_EnvMinionLocation",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            18001.32421875,
+            -331.72625732421875,
+            9740.853515625,
+            1.0
+          ]
+        ]
+      },
+      "{f710d263}": {
+        "__type": "MapLocator",
+        "name": "BoardCenterLocator",
+        "transform": [
+          [
+            0.9999999403953552,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.3579999208450317,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.9999998807907104,
+            0.0
+          ],
+          [
+            9226.431640625,
+            0.0,
+            8966.4072265625,
+            1.0
+          ]
+        ]
+      }
+    }
+  },
+  "Maps/MapGeometry/Map30/Chunks/Default/IslandLocators": {
+    "__type": "MapPlaceableContainer",
+    "items": {
+      "{0e6cac21}": {
+        "__type": "MapLocator",
+        "name": "IslandLocator3",
+        "transform": [
+          [
+            0.9999999403953552,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.9999998807907104,
+            0.0
+          ],
+          [
+            4000.0,
+            0.0,
+            14000.0,
+            1.0
+          ]
+        ]
+      },
+      "{1c82430f}": {
+        "__type": "MapLocator",
+        "name": "IslandLocator5",
+        "transform": [
+          [
+            0.9999999403953552,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.9999998807907104,
+            0.0
+          ],
+          [
+            9000.0,
+            0.0,
+            9000.0,
+            1.0
+          ]
+        ]
+      },
+      "{23a7de31}": {
+        "__type": "MapLocator",
+        "name": "IslandLocator1",
+        "transform": [
+          [
+            0.9999999403953552,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.9999998807907104,
+            0.0
+          ],
+          [
+            14000.0,
+            0.0,
+            4000.0,
+            1.0
+          ]
+        ]
+      },
+      "{5c078256}": {
+        "__type": "MapLocator",
+        "name": "IslandLocator2",
+        "transform": [
+          [
+            0.9999999403953552,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.9999998807907104,
+            0.0
+          ],
+          [
+            4000.0,
+            0.0,
+            4000.0,
+            1.0
+          ]
+        ]
+      },
+      "{f1c7ef21}": {
+        "__type": "MapLocator",
+        "name": "IslandLocator4",
+        "transform": [
+          [
+            0.9999999403953552,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.9999998807907104,
+            0.0
+          ],
+          [
+            14000.0,
+            0.0,
+            14000.0,
+            1.0
+          ]
+        ]
+      }
+    }
+  },
+  "Maps/MapGeometry/Map30/Chunks/Default/Lighting_Data": {
+    "__type": "MapPlaceableContainer"
+  },
+  "Maps/MapGeometry/Map30/Chunks/Default/VFX_Data": {
+    "__type": "MapPlaceableContainer",
+    "items": {
+      "{34467f3e}": {
+        "__type": "MapParticle",
+        "mVisibilityFlags": 62,
+        "name": "Cherry_Wind1_1",
+        "system": "Maps/Particles/TFT/TFT_Wind1",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            3640.1943359375,
+            -2701.525634765625,
+            17099.87890625,
+            1.0
+          ]
+        ]
+      },
+      "{4d6d5244}": {
+        "__type": "MapParticle",
+        "mVisibilityFlags": 62,
+        "name": "Cherry_Skybox1",
+        "system": "Maps/Particles/TFT/TFT_Skybox",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            9042.3681640625,
+            0.0,
+            9184.1494140625,
+            1.0
+          ]
+        ]
+      },
+      "{a24bf25e}": {
+        "__type": "MapParticle",
+        "mVisibilityFlags": 62,
+        "name": "Cherry_Wind1_2",
+        "system": "Maps/Particles/TFT/TFT_Wind1",
+        "transform": [
+          [
+            -0.637008547782898,
+            0.0,
+            0.7708570957183838,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            -0.7708570957183838,
+            0.0,
+            -0.637008547782898,
+            0.0
+          ],
+          [
+            11751.6142578125,
+            -1537.5643310546875,
+            20121.203125,
+            1.0
+          ]
+        ]
+      },
+      "{b5e690cc}": {
+        "__type": "MapGroup",
+        "members": [
+          "22c309fc-5051-44e1-8f47-4025c2279a30",
+          "3f6bd18d-80b3-4cc3-bdb8-a8f9bba6218b",
+          "3f1ef770-50e3-49d7-981b-f2389bb9b5e5",
+          "cca8a905-aee0-429e-9d52-5180da649cd5",
+          "6eacc6e4-4098-4415-bfb0-749a7378337f",
+          "020df040-94e1-467d-942c-b065105d309f",
+          "eebc17b5-b8cf-46c1-8e28-25b2099e4553",
+          "36f0f146-7e63-4a66-b9eb-6d2da7a2a90b",
+          "8a205b65-2b0a-4d12-acf8-5f987c72aeaf"
+        ],
+        "name": "VFX_Winds",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            2324.0849609375,
+            -306.651611328125,
+            19571.654296875,
+            1.0
+          ]
+        ]
+      },
+      "{ba1f5dd6}": {
+        "__type": "MapParticle",
+        "mVisibilityFlags": 62,
+        "name": "Cherry_Sparks1",
+        "system": "Maps/Particles/TFT/TFT_Sparks",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            9042.3681640625,
+            -138.1240234375,
+            9184.1494140625,
+            1.0
+          ]
+        ]
+      },
+      "{bcf40c02}": {
+        "__type": "MapParticle",
+        "colorModulate": [
+          1.0,
+          0.8392156958580017,
+          0.7019608020782471,
+          1.0
+        ],
+        "mVisibilityFlags": 62,
+        "name": "HA_Env_bridgeWind_SE_02_2",
+        "system": "Maps/Particles/HA/Base/HA_Env_bridgeWind_SE_02",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            12473.6826171875,
+            -250.0,
+            6195.97265625,
+            1.0
+          ]
+        ]
+      },
+      "{c5093dbd}": {
+        "__type": "MapParticle",
+        "colorModulate": [
+          1.0,
+          0.7490196228027344,
+          0.529411792755127,
+          1.0
+        ],
+        "mVisibilityFlags": 62,
+        "name": "HA_Env_highWind_belowBridge_01_1",
+        "system": "Maps/Particles/HA/Base/HA_Env_highWind_belowBridge_01",
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            9764.4423828125,
+            -2241.313720703125,
+            10160.689453125,
+            1.0
+          ]
+        ]
+      }
+    }
+  },
+  "Maps/MapGeometry/Map30/MainMap": {
+    "__type": "MapContainer",
+    "boundsMax": [
+      18000.0,
+      18000.0
+    ],
+    "chunks": {
+      "Audio_Data": "Maps/MapGeometry/Map30/Chunks/Default/Audio_Data",
+      "Design_Data": "Maps/MapGeometry/Map30/Chunks/Default/Design_Data",
+      "Lighting_Data": "Maps/MapGeometry/Map30/Chunks/Default/Lighting_Data",
+      "Spawn_Locations": "Maps/MapGeometry/Map30/Chunks/Default/IslandLocators",
+      "VFX_Data": "Maps/MapGeometry/Map30/Chunks/Default/VFX_Data"
+    },
+    "components": [
+      {
+        "SunIntensityScale": 0.0,
+        "__type": "MapSunProperties",
+        "fogAlternateColor": [
+          0.6509804129600525,
+          0.3176470696926117,
+          0.47843137383461,
+          1.0
+        ],
+        "fogColor": [
+          1.0,
+          0.729411780834198,
+          0.2823529541492462,
+          1.0
+        ],
+        "fogEnabled": false,
+        "fogStartAndEnd": [
+          -4500.0,
+          -19000.0
+        ],
+        "groundColor": [
+          0.14901961386203766,
+          0.10588235408067703,
+          0.08627451211214066,
+          1.0
+        ],
+        "horizonColor": [
+          0.6431372761726379,
+          0.3843137323856354,
+          0.4745098054409027,
+          1.0
+        ],
+        "lightMapColorScale": 1.2000000476837158,
+        "skyLightColor": [
+          0.8901960849761963,
+          0.7764706015586853,
+          0.6117647290229797,
+          1.0
+        ],
+        "skyLightScale": 0.0,
+        "sunColor": [
+          0.8745098114013672,
+          0.5058823823928833,
+          0.7333333492279053,
+          1.0
+        ],
+        "sunDirection": [
+          0.15000000596046448,
+          0.8270000219345093,
+          0.15000000596046448
+        ],
+        "useBloom": true,
+        "{d8851203}": 75.0
+      },
+      {
+        "__type": "MapBakeProperties",
+        "lightGridCharacterFullBrightIntensity": 0.6499999761581421,
+        "lightGridFileName": "ASSETS/Maps/Lightmaps/Maps/MapGeometry/Map30/MainMap/LightGrid.dat",
+        "lightGridSize": 256,
+        "{2f3b5471}": 2.0,
+        "{bc248312}": true
+      },
+      {
+        "__type": "MapLightingV2",
+        "{ee91017d}": 0.699999988079071
+      },
+      {
+        "MapContainerLocations": "Maps/MapGeometry/Map30/Chunks/Default/IslandLocators",
+        "__type": "MapContainsOtherMaps"
+      },
+      {
+        "NavGridPath": "ASSETS/Maps/NavGrid/Map30/MainMap.aimesh_ngrid",
+        "__type": "MapNavGrid",
+        "{bdc90544}": "{f87904b9}"
+      },
+      {
+        "__type": "{00000000}"
+      }
+    ],
+    "mapPath": "Maps/MapGeometry/Map30/MainMap",
+    "{f010defb}": 5000.0
+  },
+  "Maps/Particles/HA/Base/HA_Env_bridgeWind_SE_02": {
+    "__type": "VfxSystemDefinitionData",
+    "complexEmitterDefinitionData": [
+      {
+        "__type": "VfxEmitterDefinitionData",
+        "bindWeight": {
+          "__type": "ValueFloat",
+          "constantValue": 1.0
+        },
+        "birthScale0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            7.0,
+            3.0,
+            5.0
+          ]
+        },
+        "birthUvScrollRate": {
+          "__type": "ValueVector2",
+          "constantValue": [
+            0.8500000238418579,
+            0.0
+          ]
+        },
+        "blendMode": 4,
+        "color": {
+          "__type": "ValueColor",
+          "dynamics": {
+            "__type": "VfxAnimatedColorVariableData",
+            "times": [
+              0.0,
+              0.5,
+              1.0
+            ],
+            "values": [
+              [
+                1.0,
+                1.0,
+                1.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        "emitterName": "Wind",
+        "importance": 0,
+        "isLocalOrientation": 0,
+        "particleLifetime": {
+          "__type": "ValueFloat",
+          "constantValue": 4.0,
+          "dynamics": {
+            "__type": "VfxAnimatedFloatVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.4000000059604645,
+                  1.0
+                ],
+                "keyValues": [
+                  1.0,
+                  0.4000000059604645
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              4.0
+            ]
+          }
+        },
+        "primitive": {
+          "__type": "VfxPrimitiveMesh",
+          "mMesh": {
+            "__type": "VfxMeshDefinitionData",
+            "mSimpleMeshName": "ASSETS/Shared/Particles/Env_MB_bridgeWind_SE_02.sco"
+          }
+        },
+        "rate": {
+          "__type": "ValueFloat",
+          "constantValue": 0.05000000074505806
+        },
+        "texture": "ASSETS/Shared/Particles/Env_MB_bridgeWind_SE_02.dds",
+        "uvMode": 2,
+        "{563d4a22}": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            0.0,
+            50.0,
+            0.0
+          ]
+        }
+      }
+    ],
+    "particleName": "HA_Env_bridgeWind_SE_02",
+    "particlePath": "Maps/Particles/HA/Base/HA_Env_bridgeWind_SE_02"
+  },
+  "Maps/Particles/HA/Base/HA_Env_highWind_belowBridge_01": {
+    "__type": "VfxSystemDefinitionData",
+    "complexEmitterDefinitionData": [
+      {
+        "__type": "VfxEmitterDefinitionData",
+        "bindWeight": {
+          "__type": "ValueFloat",
+          "constantValue": 1.0
+        },
+        "birthRotation0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            1.0,
+            54.0,
+            0.0
+          ]
+        },
+        "birthScale0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            60.0,
+            25.0,
+            50.0
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedVector3fVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.800000011920929,
+                  2.0
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  1.0,
+                  1.2999999523162842
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  1.0,
+                  1.2000000476837158
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              [
+                60.0,
+                25.0,
+                50.0
+              ]
+            ]
+          }
+        },
+        "birthUVOffset": {
+          "__type": "ValueVector2",
+          "constantValue": [
+            2.0,
+            2.0
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedVector2fVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.0,
+                  1.0
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.0,
+                  1.0
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              [
+                2.0,
+                2.0
+              ]
+            ]
+          }
+        },
+        "birthUvScrollRate": {
+          "__type": "ValueVector2",
+          "constantValue": [
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedVector2fVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.6000000238418579,
+                  1.5
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  -0.10000000149011612,
+                  0.10000000149011612
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              [
+                0.30000001192092896,
+                0.30000001192092896
+              ]
+            ]
+          }
+        },
+        "blendMode": 4,
+        "color": {
+          "__type": "ValueColor",
+          "dynamics": {
+            "__type": "VfxAnimatedColorVariableData",
+            "times": [
+              0.0,
+              0.5,
+              1.0
+            ],
+            "values": [
+              [
+                1.0,
+                1.0,
+                1.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        "emitterName": "Wind",
+        "importance": 0,
+        "isLocalOrientation": 0,
+        "particleLifetime": {
+          "__type": "ValueFloat",
+          "constantValue": 13.0,
+          "dynamics": {
+            "__type": "VfxAnimatedFloatVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  1.0,
+                  0.4000000059604645
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              13.0
+            ]
+          }
+        },
+        "primitive": {
+          "__type": "VfxPrimitiveMesh",
+          "mMesh": {
+            "__type": "VfxMeshDefinitionData",
+            "mSimpleMeshName": "ASSETS/Shared/Particles/Env_MB_highWind_01.sco"
+          }
+        },
+        "rate": {
+          "__type": "ValueFloat",
+          "constantValue": 0.20000000298023224
+        },
+        "texture": "ASSETS/Shared/Particles/Env_MB_highWind_01.dds",
+        "textureMult": {
+          "__type": "{b097c1bd}",
+          "birthUvScrollRateMult": {
+            "__type": "ValueVector2",
+            "constantValue": [
+              0.10000000149011612,
+              0.10000000149011612
+            ],
+            "dynamics": {
+              "__type": "VfxAnimatedVector2fVariableData",
+              "probabilityTables": [
+                {
+                  "__type": "VfxProbabilityTableData",
+                  "keyTimes": [
+                    0.0,
+                    1.0
+                  ],
+                  "keyValues": [
+                    0.6000000238418579,
+                    1.5
+                  ]
+                },
+                {
+                  "__type": "VfxProbabilityTableData",
+                  "keyTimes": [
+                    0.0,
+                    1.0
+                  ],
+                  "keyValues": [
+                    -0.10000000149011612,
+                    0.10000000149011612
+                  ]
+                }
+              ],
+              "times": [
+                0.0
+              ],
+              "values": [
+                [
+                  0.10000000149011612,
+                  0.10000000149011612
+                ]
+              ]
+            }
+          }
+        },
+        "uvMode": 2,
+        "{563d4a22}": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedVector3fVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  -4000.0,
+                  1000.0
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  -4500.0,
+                  -20000.0
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  1000.0,
+                  100.0
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              [
+                1.0,
+                1.0,
+                1.0
+              ]
+            ]
+          }
+        }
+      }
+    ],
+    "particleName": "HA_Env_highWind_belowBridge_01",
+    "particlePath": "Maps/Particles/HA/Base/HA_Env_highWind_belowBridge_01",
+    "visibilityRadius": 6000.0
+  },
+  "Maps/Particles/TFT/TFT_Skybox": {
+    "__type": "VfxSystemDefinitionData",
+    "complexEmitterDefinitionData": [
+      {
+        "__type": "VfxEmitterDefinitionData",
+        "birthColor": {
+          "__type": "ValueColor",
+          "constantValue": [
+            1.0,
+            1.0,
+            1.0,
+            0.4299992322921753
+          ]
+        },
+        "birthRotationalVelocity0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            0.0,
+            0.019999999552965164,
+            0.0
+          ]
+        },
+        "birthScale0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158
+          ]
+        },
+        "birthUvScrollRate": {
+          "__type": "ValueVector2",
+          "constantValue": [
+            -0.014999999664723873,
+            0.0
+          ]
+        },
+        "blendMode": 1,
+        "emitterName": "Clouds_A",
+        "importance": 2,
+        "isRotationEnabled": 1,
+        "isSingleParticle": 1,
+        "miscRenderFlags": 4,
+        "particleLifetime": {
+          "__type": "ValueFloat",
+          "constantValue": -1.0
+        },
+        "pass": -9997,
+        "primitive": {
+          "__type": "VfxPrimitiveMesh",
+          "mMesh": {
+            "__type": "VfxMeshDefinitionData",
+            "mSimpleMeshName": "ASSETS/Maps/Particles/TFT/Skybox_Cloud_A.scb"
+          }
+        },
+        "rate": {
+          "__type": "ValueFloat",
+          "constantValue": 1.0
+        },
+        "scale0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            1.0,
+            1.5,
+            1.0
+          ]
+        },
+        "scaleOverride": [
+          17.0,
+          17.0,
+          17.0
+        ],
+        "texture": "ASSETS/Particles/TFT_Skybox2_Floaters.dds",
+        "translationOverride": [
+          0.0,
+          -6000.0,
+          0.0
+        ],
+        "uvScale": {
+          "__type": "ValueVector2",
+          "constantValue": [
+            2.0,
+            1.0
+          ]
+        },
+        "{563d4a22}": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            0.0,
+            -500.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "__type": "VfxEmitterDefinitionData",
+        "birthColor": {
+          "__type": "ValueColor",
+          "constantValue": [
+            1.0,
+            1.0,
+            1.0,
+            0.5799953937530518
+          ]
+        },
+        "birthRotationalVelocity0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            0.0,
+            0.3499999940395355,
+            0.0
+          ]
+        },
+        "birthScale0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            1.5,
+            1.0,
+            1.0
+          ]
+        },
+        "birthUvScrollRate": {
+          "__type": "ValueVector2",
+          "constantValue": [
+            -0.009999999776482582,
+            0.0
+          ]
+        },
+        "blendMode": 1,
+        "color": {
+          "__type": "ValueColor",
+          "constantValue": [
+            1.0,
+            1.0,
+            1.0,
+            0.5000076293945312
+          ]
+        },
+        "emitterName": "Clouds_B",
+        "importance": 2,
+        "isRotationEnabled": 1,
+        "isSingleParticle": 1,
+        "isUniformScale": 1,
+        "miscRenderFlags": 4,
+        "particleLifetime": {
+          "__type": "ValueFloat",
+          "constantValue": -1.0
+        },
+        "pass": -9997,
+        "primitive": {
+          "__type": "VfxPrimitiveMesh",
+          "mMesh": {
+            "__type": "VfxMeshDefinitionData",
+            "mSimpleMeshName": "ASSETS/Maps/Particles/TFT/Skybox_Cloud_B.scb"
+          }
+        },
+        "rate": {
+          "__type": "ValueFloat",
+          "constantValue": 1.0
+        },
+        "scaleOverride": [
+          16.0,
+          16.0,
+          16.0
+        ],
+        "texture": "ASSETS/Particles/TFT_Skybox2_Floaters.dds",
+        "textureMult": {
+          "__type": "{b097c1bd}",
+          "birthUVOffsetMult": {
+            "__type": "ValueVector2",
+            "constantValue": [
+              1.0,
+              1.0
+            ],
+            "dynamics": {
+              "__type": "VfxAnimatedVector2fVariableData",
+              "probabilityTables": [
+                {
+                  "__type": "VfxProbabilityTableData",
+                  "keyTimes": [
+                    0.0,
+                    1.0
+                  ],
+                  "keyValues": [
+                    0.0,
+                    1.0
+                  ]
+                },
+                {
+                  "__type": "VfxProbabilityTableData",
+                  "keyTimes": [
+                    0.0,
+                    1.0
+                  ],
+                  "keyValues": [
+                    0.0,
+                    1.0
+                  ]
+                }
+              ],
+              "times": [
+                0.0
+              ],
+              "values": [
+                [
+                  1.0,
+                  1.0
+                ]
+              ]
+            }
+          },
+          "birthUvScrollRateMult": {
+            "__type": "ValueVector2",
+            "constantValue": [
+              -0.05000000074505806,
+              0.0
+            ]
+          },
+          "textureMult": "ASSETS/Maps/Particles/TFT/TFT_Cloud_Mult.dds"
+        },
+        "translationOverride": [
+          1.0,
+          -1.0,
+          0.0
+        ],
+        "uvScale": {
+          "__type": "ValueVector2",
+          "constantValue": [
+            2.0,
+            1.0
+          ]
+        },
+        "{563d4a22}": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            0.0,
+            -500.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "__type": "VfxEmitterDefinitionData",
+        "birthColor": {
+          "__type": "ValueColor",
+          "constantValue": [
+            1.0,
+            0.9019607901573181,
+            0.7882353067398071,
+            1.0
+          ]
+        },
+        "birthFrameRate": {
+          "__type": "ValueFloat",
+          "constantValue": 0.10000000149011612
+        },
+        "birthRotation0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "birthRotationalVelocity0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            0.0,
+            0.3499999940395355,
+            0.0
+          ]
+        },
+        "birthScale0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            1.0,
+            1.5,
+            1.0
+          ]
+        },
+        "birthUVOffset": {
+          "__type": "ValueVector2",
+          "dynamics": {
+            "__type": "VfxAnimatedVector2fVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.0,
+                  1.0
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.0,
+                  1.0
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        "birthUvScrollRate": {
+          "__type": "ValueVector2",
+          "constantValue": [
+            0.10000000149011612,
+            0.0
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedVector2fVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.6000000238418579,
+                  0.699999988079071
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  -0.10000000149011612,
+                  0.10000000149011612
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              [
+                0.10000000149011612,
+                0.0
+              ]
+            ]
+          }
+        },
+        "blendMode": 4,
+        "color": {
+          "__type": "ValueColor",
+          "constantValue": [
+            1.0,
+            0.6039215922355652,
+            0.2549019753932953,
+            1.0
+          ]
+        },
+        "emitterName": "Wind",
+        "importance": 2,
+        "isLocalOrientation": 0,
+        "isSingleParticle": 1,
+        "particleLifetime": {
+          "__type": "ValueFloat",
+          "constantValue": -1.0,
+          "dynamics": {
+            "__type": "VfxAnimatedFloatVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.4000000059604645,
+                  1.0
+                ],
+                "keyValues": [
+                  1.0,
+                  0.4000000059604645
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              -1.0
+            ]
+          }
+        },
+        "pass": -9999,
+        "primitive": {
+          "__type": "VfxPrimitiveMesh",
+          "mMesh": {
+            "__type": "VfxMeshDefinitionData",
+            "mSimpleMeshName": "ASSETS/Maps/Particles/TFT/Skybox_Wind.scb"
+          }
+        },
+        "rate": {
+          "__type": "ValueFloat",
+          "constantValue": 0.004999999888241291
+        },
+        "scaleOverride": [
+          17.5,
+          17.5,
+          17.5
+        ],
+        "texture": "ASSETS/Maps/Particles/TFT/Env_TFT_Skybox_Wind.dds",
+        "uvMode": 2,
+        "uvTransformCenter": [
+          1.0,
+          1.0
+        ],
+        "{563d4a22}": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            0.0,
+            -450.0,
+            0.0
+          ]
+        }
+      }
+    ],
+    "flags": 197,
+    "particleName": "TFT_Skybox",
+    "particlePath": "Maps/Particles/TFT/TFT_Skybox",
+    "visibilityRadius": 12000.0
+  },
+  "Maps/Particles/TFT/TFT_Sparks": {
+    "__type": "VfxSystemDefinitionData",
+    "complexEmitterDefinitionData": [
+      {
+        "__type": "VfxEmitterDefinitionData",
+        "alphaErosionDefinition": {
+          "__type": "VfxAlphaErosionDefinitionData",
+          "erosionDriveCurve": {
+            "__type": "ValueFloat",
+            "dynamics": {
+              "__type": "VfxAnimatedFloatVariableData",
+              "times": [
+                0.0,
+                0.4000000059604645,
+                1.0
+              ],
+              "values": [
+                0.0,
+                0.0,
+                1.0
+              ]
+            }
+          },
+          "erosionMapChannelMixer": {
+            "__type": "ValueColor",
+            "constantValue": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "erosionMapName": "ASSETS/Characters/TFT_Kennen/Skins/Base/Particles/TFT_Kennen_Base_E_LightningErosion03.dds"
+        },
+        "bindWeight": {
+          "__type": "ValueFloat",
+          "constantValue": 1.0
+        },
+        "birthRotation0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedVector3fVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData"
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  -360.0,
+                  360.0
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData"
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        "birthScale0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            2400.0,
+            3000.0,
+            2400.0
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedVector3fVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.8999999761581421,
+                  1.0
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData"
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.8999999761581421,
+                  1.0
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              [
+                2400.0,
+                3000.0,
+                2400.0
+              ]
+            ]
+          }
+        },
+        "blendMode": 4,
+        "color": {
+          "__type": "ValueColor",
+          "constantValue": [
+            1.0,
+            0.6899977326393127,
+            0.31000229716300964,
+            0.5499961972236633
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedColorVariableData",
+            "times": [
+              0.0,
+              0.10000000149011612,
+              0.20000000298023224,
+              0.30000001192092896,
+              0.4000000059604645,
+              0.5,
+              1.0
+            ],
+            "values": [
+              [
+                1.0,
+                0.6899977326393127,
+                0.31000229716300964,
+                0.5499961972236633
+              ],
+              [
+                1.0,
+                0.6899977326393127,
+                0.31000229716300964,
+                0.5499961972236633
+              ],
+              [
+                1.0,
+                0.6899977326393127,
+                0.31000229716300964,
+                0.2915017604827881
+              ],
+              [
+                1.0,
+                0.6899977326393127,
+                0.31000229716300964,
+                0.5499961972236633
+              ],
+              [
+                1.0,
+                0.6899977326393127,
+                0.31000229716300964,
+                0.0
+              ],
+              [
+                1.0,
+                0.6899977326393127,
+                0.31000229716300964,
+                0.5499961972236633
+              ],
+              [
+                1.0,
+                0.6899977326393127,
+                0.31000229716300964,
+                0.5499961972236633
+              ]
+            ]
+          }
+        },
+        "disableBackfaceCull": true,
+        "emitterName": "Lightning_AOE_Ring",
+        "frameRate": 5.0,
+        "importance": 2,
+        "isGroundLayer": 1,
+        "isLocalOrientation": 0,
+        "numFrames": 2,
+        "particleLifetime": {
+          "__type": "ValueFloat",
+          "constantValue": 0.5,
+          "dynamics": {
+            "__type": "VfxAnimatedFloatVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.5,
+                  1.0
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              0.5
+            ]
+          }
+        },
+        "particleLinger": 0.5,
+        "primitive": {
+          "__type": "VfxPrimitiveMesh",
+          "mMesh": {
+            "__type": "VfxMeshDefinitionData",
+            "mSimpleMeshName": "ASSETS/Characters/TFT_Kennen/Skins/Base/Particles/TFT_Kennen_Lighting_Cyl.sco"
+          }
+        },
+        "rate": {
+          "__type": "ValueFloat",
+          "constantValue": 0.20000000298023224
+        },
+        "scale0": {
+          "__type": "ValueVector3",
+          "dynamics": {
+            "__type": "VfxAnimatedVector3fVariableData",
+            "times": [
+              0.0,
+              0.5,
+              1.0
+            ],
+            "values": [
+              [
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "texDiv": [
+          2.0,
+          1.0
+        ],
+        "texture": "ASSETS/Characters/TFT_Kennen/Skins/Base/Particles/TFT_Kennen_Base_E_Lightning03.dds",
+        "uvScale": {
+          "__type": "ValueVector2",
+          "constantValue": [
+            1.0,
+            4.0
+          ]
+        },
+        "{3bf0b4ed}": {
+          "__type": "{4f4e2ed7}",
+          "emitOffset": {
+            "__type": "ValueVector3",
+            "dynamics": {
+              "__type": "VfxAnimatedVector3fVariableData",
+              "probabilityTables": [
+                {
+                  "__type": "VfxProbabilityTableData"
+                },
+                {
+                  "__type": "VfxProbabilityTableData",
+                  "keyTimes": [
+                    0.0,
+                    1.0
+                  ],
+                  "keyValues": [
+                    0.75,
+                    1.0
+                  ]
+                },
+                {
+                  "__type": "VfxProbabilityTableData"
+                }
+              ],
+              "times": [
+                0.0
+              ],
+              "values": [
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ]
+            }
+          }
+        },
+        "{563d4a22}": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            0.0,
+            -15.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "__type": "VfxEmitterDefinitionData",
+        "alphaErosionDefinition": {
+          "__type": "VfxAlphaErosionDefinitionData",
+          "erosionDriveCurve": {
+            "__type": "ValueFloat",
+            "dynamics": {
+              "__type": "VfxAnimatedFloatVariableData",
+              "times": [
+                0.0,
+                0.30000001192092896,
+                1.0
+              ],
+              "values": [
+                0.0,
+                0.0,
+                1.0
+              ]
+            }
+          },
+          "erosionMapChannelMixer": {
+            "__type": "ValueColor",
+            "constantValue": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "erosionMapName": "ASSETS/Characters/TFT_Kennen/Skins/Base/Particles/TFT_Kennen_Base_E_LightningErosion03.dds"
+        },
+        "bindWeight": {
+          "__type": "ValueFloat",
+          "constantValue": 1.0
+        },
+        "birthRotation0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedVector3fVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  -15.0,
+                  15.0
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  -360.0,
+                  360.0
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  -15.0,
+                  15.0
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              [
+                1.0,
+                1.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "birthScale0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            2400.0,
+            2400.0,
+            2400.0
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedVector3fVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.8999999761581421,
+                  1.0
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData"
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.8999999761581421,
+                  1.0
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              [
+                2400.0,
+                2400.0,
+                2400.0
+              ]
+            ]
+          }
+        },
+        "blendMode": 4,
+        "color": {
+          "__type": "ValueColor",
+          "constantValue": [
+            1.0,
+            0.3294117748737335,
+            0.5882353186607361,
+            0.7921568751335144
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedColorVariableData",
+            "times": [
+              0.0,
+              0.10000000149011612,
+              0.20000000298023224,
+              0.30000001192092896,
+              0.4000000059604645,
+              0.5,
+              1.0
+            ],
+            "values": [
+              [
+                1.0,
+                0.3294117748737335,
+                0.5882353186607361,
+                0.7921568751335144
+              ],
+              [
+                1.0,
+                0.3294117748737335,
+                0.5882353186607361,
+                0.7921568751335144
+              ],
+              [
+                1.0,
+                0.3294117748737335,
+                0.5882353186607361,
+                0.0
+              ],
+              [
+                1.0,
+                0.3294117748737335,
+                0.5882353186607361,
+                0.7921568751335144
+              ],
+              [
+                1.0,
+                0.3294117748737335,
+                0.5882353186607361,
+                0.7921568751335144
+              ],
+              [
+                1.0,
+                0.3294117748737335,
+                0.5882353186607361,
+                0.7921568751335144
+              ],
+              [
+                1.0,
+                0.3294117748737335,
+                0.5882353186607361,
+                0.7921568751335144
+              ]
+            ]
+          }
+        },
+        "disableBackfaceCull": true,
+        "emitterName": "Lightning_AOE_Ring1",
+        "frameRate": 5.0,
+        "importance": 2,
+        "isLocalOrientation": 0,
+        "numFrames": 2,
+        "particleLifetime": {
+          "__type": "ValueFloat",
+          "constantValue": 0.4000000059604645,
+          "dynamics": {
+            "__type": "VfxAnimatedFloatVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.5,
+                  1.0
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              0.4000000059604645
+            ]
+          }
+        },
+        "particleLinger": 10.300000190734863,
+        "primitive": {
+          "__type": "VfxPrimitiveMesh",
+          "mMesh": {
+            "__type": "VfxMeshDefinitionData",
+            "mSimpleMeshName": "ASSETS/Characters/TFT_Kennen/Skins/Base/Particles/TFT_Kennen_Lighting_Cyl.sco"
+          }
+        },
+        "rate": {
+          "__type": "ValueFloat",
+          "constantValue": 0.30000001192092896
+        },
+        "scale0": {
+          "__type": "ValueVector3",
+          "dynamics": {
+            "__type": "VfxAnimatedVector3fVariableData",
+            "times": [
+              0.0,
+              0.5,
+              1.0
+            ],
+            "values": [
+              [
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "texDiv": [
+          2.0,
+          1.0
+        ],
+        "texture": "ASSETS/Characters/TFT_Kennen/Skins/Base/Particles/TFT_Kennen_Base_E_Lightning03.dds",
+        "timeBeforeFirstEmission": 1.0,
+        "uvScale": {
+          "__type": "ValueVector2",
+          "constantValue": [
+            1.0,
+            4.0
+          ]
+        },
+        "{3bf0b4ed}": {
+          "__type": "{4f4e2ed7}",
+          "emitOffset": {
+            "__type": "ValueVector3",
+            "dynamics": {
+              "__type": "VfxAnimatedVector3fVariableData",
+              "probabilityTables": [
+                {
+                  "__type": "VfxProbabilityTableData"
+                },
+                {
+                  "__type": "VfxProbabilityTableData",
+                  "keyTimes": [
+                    0.0,
+                    1.0
+                  ],
+                  "keyValues": [
+                    0.75,
+                    1.0
+                  ]
+                },
+                {
+                  "__type": "VfxProbabilityTableData"
+                }
+              ],
+              "times": [
+                0.0
+              ],
+              "values": [
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ]
+            }
+          }
+        },
+        "{563d4a22}": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            0.0,
+            -65.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "__type": "VfxEmitterDefinitionData",
+        "alphaErosionDefinition": {
+          "__type": "VfxAlphaErosionDefinitionData",
+          "erosionDriveCurve": {
+            "__type": "ValueFloat",
+            "dynamics": {
+              "__type": "VfxAnimatedFloatVariableData",
+              "times": [
+                0.0,
+                0.30000001192092896,
+                1.0
+              ],
+              "values": [
+                0.0,
+                0.0,
+                1.0
+              ]
+            }
+          },
+          "erosionMapChannelMixer": {
+            "__type": "ValueColor",
+            "constantValue": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "erosionMapName": "ASSETS/Characters/TFT_Kennen/Skins/Base/Particles/TFT_Kennen_Base_E_LightningErosion03.dds"
+        },
+        "bindWeight": {
+          "__type": "ValueFloat",
+          "constantValue": 1.0
+        },
+        "birthRotation0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedVector3fVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData"
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  -360.0,
+                  360.0
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData"
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              [
+                1.0,
+                1.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "birthScale0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            2400.0,
+            1900.0,
+            2400.0
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedVector3fVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.8999999761581421,
+                  1.0
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData"
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.8999999761581421,
+                  1.0
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              [
+                2400.0,
+                1900.0,
+                2400.0
+              ]
+            ]
+          }
+        },
+        "blendMode": 4,
+        "color": {
+          "__type": "ValueColor",
+          "constantValue": [
+            1.0,
+            0.7600061297416687,
+            0.46999314427375793,
+            0.330006867647171
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedColorVariableData",
+            "times": [
+              0.0,
+              0.10000000149011612,
+              0.20000000298023224,
+              0.30000001192092896,
+              0.4000000059604645,
+              0.5,
+              1.0
+            ],
+            "values": [
+              [
+                1.0,
+                0.7600061297416687,
+                0.46999314427375793,
+                0.330006867647171
+              ],
+              [
+                1.0,
+                0.7600061297416687,
+                0.46999314427375793,
+                0.330006867647171
+              ],
+              [
+                1.0,
+                0.7600061297416687,
+                0.46999314427375793,
+                0.0
+              ],
+              [
+                1.0,
+                0.7600061297416687,
+                0.46999314427375793,
+                0.330006867647171
+              ],
+              [
+                1.0,
+                0.7600061297416687,
+                0.46999314427375793,
+                0.330006867647171
+              ],
+              [
+                1.0,
+                0.7600061297416687,
+                0.46999314427375793,
+                0.330006867647171
+              ],
+              [
+                1.0,
+                0.7600061297416687,
+                0.46999314427375793,
+                0.330006867647171
+              ]
+            ]
+          }
+        },
+        "disableBackfaceCull": true,
+        "emitterName": "Lightning_AOE_Ring2",
+        "frameRate": 5.0,
+        "importance": 2,
+        "isLocalOrientation": 0,
+        "numFrames": 2,
+        "particleLifetime": {
+          "__type": "ValueFloat",
+          "constantValue": 0.4000000059604645,
+          "dynamics": {
+            "__type": "VfxAnimatedFloatVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.5,
+                  1.0
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              0.4000000059604645
+            ]
+          }
+        },
+        "particleLinger": 10.300000190734863,
+        "primitive": {
+          "__type": "VfxPrimitiveMesh",
+          "mMesh": {
+            "__type": "VfxMeshDefinitionData",
+            "mSimpleMeshName": "ASSETS/Characters/TFT_Kennen/Skins/Base/Particles/TFT_Kennen_Base_R_Decal_Edge.scb"
+          }
+        },
+        "rate": {
+          "__type": "ValueFloat",
+          "constantValue": 0.4000000059604645
+        },
+        "scale0": {
+          "__type": "ValueVector3",
+          "dynamics": {
+            "__type": "VfxAnimatedVector3fVariableData",
+            "times": [
+              0.0,
+              0.5,
+              1.0
+            ],
+            "values": [
+              [
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "texDiv": [
+          2.0,
+          1.0
+        ],
+        "texture": "ASSETS/Characters/TFT_Kennen/Skins/Base/Particles/TFT_Kennen_Base_E_Lightning03.dds",
+        "timeBeforeFirstEmission": 2.200000047683716,
+        "uvScale": {
+          "__type": "ValueVector2",
+          "constantValue": [
+            1.0,
+            3.0
+          ]
+        },
+        "{3bf0b4ed}": {
+          "__type": "{4f4e2ed7}",
+          "emitOffset": {
+            "__type": "ValueVector3",
+            "dynamics": {
+              "__type": "VfxAnimatedVector3fVariableData",
+              "probabilityTables": [
+                {
+                  "__type": "VfxProbabilityTableData"
+                },
+                {
+                  "__type": "VfxProbabilityTableData",
+                  "keyTimes": [
+                    0.0,
+                    1.0
+                  ],
+                  "keyValues": [
+                    0.75,
+                    1.0
+                  ]
+                },
+                {
+                  "__type": "VfxProbabilityTableData"
+                }
+              ],
+              "times": [
+                0.0
+              ],
+              "values": [
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ]
+            }
+          }
+        },
+        "{563d4a22}": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            0.0,
+            -50.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "__type": "VfxEmitterDefinitionData",
+        "alphaRef": 0,
+        "bindWeight": {
+          "__type": "ValueFloat",
+          "constantValue": 1.0
+        },
+        "birthRotation0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedVector3fVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData"
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  -360.0,
+                  360.0
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData"
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        "birthScale0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            22.0,
+            1.0,
+            4.5
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedVector3fVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.9700000286102295,
+                  1.0
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData"
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.8999999761581421,
+                  1.0
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              [
+                22.0,
+                1.0,
+                4.5
+              ]
+            ]
+          }
+        },
+        "blendMode": 4,
+        "color": {
+          "__type": "ValueColor",
+          "constantValue": [
+            1.0,
+            0.019607843831181526,
+            0.4941176474094391,
+            0.2980392277240753
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedColorVariableData",
+            "times": [
+              0.0,
+              0.14491978287696838,
+              0.3176470696926117,
+              0.5021390318870544,
+              0.68556147813797,
+              0.8262032270431519,
+              1.0
+            ],
+            "values": [
+              [
+                1.0,
+                0.019607843831181526,
+                0.4941176474094391,
+                0.0
+              ],
+              [
+                1.0,
+                0.019607843831181526,
+                0.4941176474094391,
+                0.09313725680112839
+              ],
+              [
+                1.0,
+                0.019607843831181526,
+                0.4941176474094391,
+                0.25845587253570557
+              ],
+              [
+                1.0,
+                0.019607843831181526,
+                0.4941176474094391,
+                0.2980392277240753
+              ],
+              [
+                1.0,
+                0.019607843831181526,
+                0.4941176474094391,
+                0.2654411792755127
+              ],
+              [
+                1.0,
+                0.019607843831181526,
+                0.4941176474094391,
+                0.08615195751190186
+              ],
+              [
+                1.0,
+                0.019607843831181526,
+                0.4941176474094391,
+                0.0
+              ]
+            ]
+          }
+        },
+        "emitterName": "Lightning_AOE_Ring3",
+        "importance": 2,
+        "isLocalOrientation": 0,
+        "isRandomStartFrame": 1,
+        "isUniformScale": 1,
+        "numFrames": 2,
+        "particleLifetime": {
+          "__type": "ValueFloat",
+          "constantValue": 0.6000000238418579,
+          "dynamics": {
+            "__type": "VfxAnimatedFloatVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.5,
+                  1.0
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              0.6000000238418579
+            ]
+          }
+        },
+        "particleLinger": 10.300000190734863,
+        "primitive": {
+          "__type": "VfxPrimitiveMesh",
+          "mMesh": {
+            "__type": "VfxMeshDefinitionData",
+            "mSimpleMeshName": "ASSETS/Characters/TFT_Kennen/Skins/Base/Particles/TFT_Kennen_Base_R_Decal_Edge.scb"
+          }
+        },
+        "rate": {
+          "__type": "ValueFloat",
+          "constantValue": 0.20000000298023224
+        },
+        "scale0": {
+          "__type": "ValueVector3",
+          "dynamics": {
+            "__type": "VfxAnimatedVector3fVariableData",
+            "times": [
+              0.0,
+              0.5,
+              1.0
+            ],
+            "values": [
+              [
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "texDiv": [
+          2.0,
+          1.0
+        ],
+        "texture": "ASSETS/Characters/TFT_Kennen/Skins/Base/Particles/TFT_Kennen_Base_P_Proc_Lightning_Glow.dds",
+        "uvScale": {
+          "__type": "ValueVector2",
+          "constantValue": [
+            1.0,
+            2.0
+          ]
+        },
+        "{3bf0b4ed}": {
+          "__type": "{4f4e2ed7}",
+          "emitOffset": {
+            "__type": "ValueVector3",
+            "dynamics": {
+              "__type": "VfxAnimatedVector3fVariableData",
+              "probabilityTables": [
+                {
+                  "__type": "VfxProbabilityTableData"
+                },
+                {
+                  "__type": "VfxProbabilityTableData",
+                  "keyTimes": [
+                    0.0,
+                    1.0
+                  ],
+                  "keyValues": [
+                    0.75,
+                    1.0
+                  ]
+                },
+                {
+                  "__type": "VfxProbabilityTableData"
+                }
+              ],
+              "times": [
+                0.0
+              ],
+              "values": [
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "particleName": "TFT_Sparks",
+    "particlePath": "Maps/Particles/TFT/TFT_Sparks",
+    "visibilityRadius": 3000.0
+  },
+  "Maps/Particles/TFT/TFT_Wind1": {
+    "__type": "VfxSystemDefinitionData",
+    "complexEmitterDefinitionData": [
+      {
+        "__type": "VfxEmitterDefinitionData",
+        "bindWeight": {
+          "__type": "ValueFloat",
+          "constantValue": 1.0
+        },
+        "birthColor": {
+          "__type": "ValueColor",
+          "constantValue": [
+            1.0,
+            0.8980392217636108,
+            0.5215686559677124,
+            1.0
+          ]
+        },
+        "birthRotation0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            1.0,
+            57.0,
+            0.0
+          ]
+        },
+        "birthScale0": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            60.0,
+            25.0,
+            50.0
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedVector3fVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.800000011920929,
+                  2.0
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  1.0,
+                  1.2999999523162842
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  1.0,
+                  1.2000000476837158
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              [
+                60.0,
+                25.0,
+                50.0
+              ]
+            ]
+          }
+        },
+        "birthUVOffset": {
+          "__type": "ValueVector2",
+          "constantValue": [
+            2.0,
+            2.0
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedVector2fVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.0,
+                  1.0
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.0,
+                  1.0
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              [
+                2.0,
+                2.0
+              ]
+            ]
+          }
+        },
+        "birthUvScrollRate": {
+          "__type": "ValueVector2",
+          "constantValue": [
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedVector2fVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  0.6000000238418579,
+                  1.5
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  -0.10000000149011612,
+                  0.10000000149011612
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              [
+                0.30000001192092896,
+                0.30000001192092896
+              ]
+            ]
+          }
+        },
+        "blendMode": 4,
+        "color": {
+          "__type": "ValueColor",
+          "constantValue": [
+            1.0,
+            0.8196078538894653,
+            0.3529411852359772,
+            1.0
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedColorVariableData",
+            "times": [
+              0.0,
+              0.5,
+              1.0
+            ],
+            "values": [
+              [
+                1.0,
+                0.8196078538894653,
+                0.3529411852359772,
+                0.0
+              ],
+              [
+                1.0,
+                0.8196078538894653,
+                0.3529411852359772,
+                1.0
+              ],
+              [
+                1.0,
+                0.8196078538894653,
+                0.3529411852359772,
+                0.0
+              ]
+            ]
+          }
+        },
+        "emitterName": "Wind1",
+        "isLocalOrientation": 0,
+        "particleLifetime": {
+          "__type": "ValueFloat",
+          "constantValue": 13.0,
+          "dynamics": {
+            "__type": "VfxAnimatedFloatVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  1.0,
+                  0.4000000059604645
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              13.0
+            ]
+          }
+        },
+        "pass": 10,
+        "primitive": {
+          "__type": "VfxPrimitiveMesh",
+          "mMesh": {
+            "__type": "VfxMeshDefinitionData",
+            "mSimpleMeshName": "ASSETS/Shared/Particles/Env_MB_highWind_01.sco"
+          }
+        },
+        "rate": {
+          "__type": "ValueFloat",
+          "constantValue": 0.20000000298023224
+        },
+        "texture": "ASSETS/Shared/Particles/Env_MB_highWind_01.dds",
+        "textureMult": {
+          "__type": "{b097c1bd}",
+          "birthUvScrollRateMult": {
+            "__type": "ValueVector2",
+            "constantValue": [
+              0.10000000149011612,
+              0.10000000149011612
+            ],
+            "dynamics": {
+              "__type": "VfxAnimatedVector2fVariableData",
+              "probabilityTables": [
+                {
+                  "__type": "VfxProbabilityTableData",
+                  "keyTimes": [
+                    0.0,
+                    1.0
+                  ],
+                  "keyValues": [
+                    0.6000000238418579,
+                    1.5
+                  ]
+                },
+                {
+                  "__type": "VfxProbabilityTableData",
+                  "keyTimes": [
+                    0.0,
+                    1.0
+                  ],
+                  "keyValues": [
+                    -0.10000000149011612,
+                    0.10000000149011612
+                  ]
+                }
+              ],
+              "times": [
+                0.0
+              ],
+              "values": [
+                [
+                  0.10000000149011612,
+                  0.10000000149011612
+                ]
+              ]
+            }
+          }
+        },
+        "uvMode": 2,
+        "{563d4a22}": {
+          "__type": "ValueVector3",
+          "constantValue": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dynamics": {
+            "__type": "VfxAnimatedVector3fVariableData",
+            "probabilityTables": [
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  -4000.0,
+                  1000.0
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  -4500.0,
+                  -20000.0
+                ]
+              },
+              {
+                "__type": "VfxProbabilityTableData",
+                "keyTimes": [
+                  0.0,
+                  1.0
+                ],
+                "keyValues": [
+                  1000.0,
+                  100.0
+                ]
+              }
+            ],
+            "times": [
+              0.0
+            ],
+            "values": [
+              [
+                1.0,
+                1.0,
+                1.0
+              ]
+            ]
+          }
+        }
+      }
+    ],
+    "flags": 197,
+    "particleName": "TFT_Wind1",
+    "particlePath": "Maps/Particles/TFT/TFT_Wind1",
+    "visibilityRadius": 12000.0
+  },
+  "{eacd09ee}": {
+    "__type": "{bf11c509}",
+    "tags": [
+      {
+        "__type": "{d82714cc}",
+        "color": [
+          0,
+          255,
+          0,
+          255
+        ],
+        "name": "{ecaf27d0}"
+      },
+      {
+        "__type": "{d82714cc}",
+        "flags": 2,
+        "name": "{a7262d15}"
+      },
+      {
+        "__type": "{d82714cc}",
+        "color": [
+          250,
+          250,
+          250,
+          255
+        ],
+        "flags": 66,
+        "name": "{54acfa09}"
+      },
+      {
+        "__type": "{d82714cc}",
+        "color": [
+          0,
+          255,
+          255,
+          255
+        ],
+        "flags": 1,
+        "name": "{b26fac7d}"
+      },
+      {
+        "__type": "{d82714cc}",
+        "color": [
+          255,
+          255,
+          0,
+          255
+        ],
+        "flags": 256,
+        "name": "{74036ad3}"
+      },
+      {
+        "__type": "{d82714cc}",
+        "color": [
+          0,
+          0,
+          255,
+          255
+        ],
+        "flags": 4,
+        "name": "{5e70f23d}"
+      },
+      {
+        "__type": "{d82714cc}",
+        "color": [
+          64,
+          0,
+          0,
+          255
+        ],
+        "flags": 514,
+        "name": "{0643baee}"
+      },
+      {
+        "__type": "{d82714cc}",
+        "color": [
+          128,
+          64,
+          64,
+          255
+        ],
+        "flags": 1088,
+        "name": "{b0a72c1e}"
+      },
+      {
+        "__type": "{d82714cc}",
+        "color": [
+          128,
+          64,
+          128,
+          255
+        ],
+        "flags": 2112,
+        "name": "{9f421ace}"
+      },
+      {
+        "__type": "{d82714cc}",
+        "color": [
+          128,
+          16,
+          16,
+          255
+        ],
+        "flags": 1025,
+        "name": "{d4db86a6}"
+      },
+      {
+        "__type": "{d82714cc}",
+        "color": [
+          96,
+          80,
+          80,
+          255
+        ],
+        "flags": 2049,
+        "name": "{8e825d26}"
+      },
+      {
+        "__type": "{d82714cc}",
+        "color": [
+          255,
+          192,
+          192,
+          255
+        ],
+        "flags": 5184,
+        "name": "{6114e217}"
+      },
+      {
+        "__type": "{d82714cc}",
+        "color": [
+          255,
+          192,
+          255,
+          255
+        ],
+        "flags": 6208,
+        "name": "{9db5a967}"
+      },
+      {
+        "__type": "{d82714cc}",
+        "color": [
+          128,
+          255,
+          255,
+          255
+        ],
+        "flags": 3,
+        "name": "{c7066f0d}"
+      }
+    ]
+  },
+  "{f87904b9}": {
+    "__type": "{bdc90544}",
+    "{9a159fb8}": "{eacd09ee}",
+    "{c2644f75}": [
+      {
+        "__type": "{2bfb084c}",
+        "groupName": "{9f9c4fd4}"
+      },
+      {
+        "__type": "{2bfb084c}",
+        "groupName": "Vfx",
+        "tags": [
+          {
+            "__type": "{f6f4bb5f}",
+            "name": "{ada7afdb}"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              0,
+              255,
+              0,
+              255
+            ],
+            "name": "{c81958fa}"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              0,
+              0,
+              255,
+              255
+            ],
+            "name": "Dirt"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              255,
+              255,
+              0,
+              255
+            ],
+            "name": "{b26fac7d}"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              255,
+              128,
+              0,
+              255
+            ],
+            "name": "{92fae464}"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              255,
+              0,
+              0,
+              255
+            ],
+            "name": "Water"
+          }
+        ]
+      },
+      {
+        "__type": "{2bfb084c}",
+        "groupName": "{cf11f0f1}"
+      },
+      {
+        "__type": "{2bfb084c}",
+        "groupName": "{ad83d5d4}",
+        "tags": [
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              0,
+              150,
+              255,
+              255
+            ],
+            "name": "Ground"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              255,
+              90,
+              0,
+              255
+            ],
+            "name": "{5e4daa9d}"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              0,
+              0,
+              20,
+              255
+            ],
+            "name": "{2352c45e}"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              0,
+              252,
+              255,
+              255
+            ],
+            "name": "{c81958fa}"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              255,
+              0,
+              114,
+              255
+            ],
+            "name": "{d756aedc}"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              255,
+              90,
+              0,
+              255
+            ],
+            "name": "Ice"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              0,
+              0,
+              255,
+              255
+            ],
+            "name": "Fire"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              160,
+              160,
+              160,
+              255
+            ],
+            "name": "{33324a17}"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              0,
+              0,
+              255,
+              255
+            ],
+            "name": "{e4eb258c}"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              0,
+              0,
+              127,
+              255
+            ],
+            "name": "{7b8e6887}"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              0,
+              128,
+              255,
+              255
+            ],
+            "name": "{7a8e66f4}"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              255,
+              192,
+              192,
+              255
+            ],
+            "name": "{7d8e6bad}"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "name": "{7c8e6a1a}"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "name": "{778e623b}"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              102,
+              102,
+              0,
+              255
+            ],
+            "name": "{768e60a8}"
+          },
+          {
+            "__type": "{f6f4bb5f}",
+            "color": [
+              0,
+              102,
+              0,
+              255
+            ],
+            "name": "{798e6561}"
+          }
+        ]
+      },
+      {
+        "__type": "{2bfb084c}",
+        "groupName": "{dc57f45f}"
+      },
+      {
+        "__type": "{2bfb084c}",
+        "groupName": "{f3e66bfb}"
+      },
+      {
+        "__type": "{2bfb084c}",
+        "groupName": "{df7d0352}"
+      }
+    ]
+  }
+}
