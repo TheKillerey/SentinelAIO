@@ -88,7 +88,7 @@
                               Margin="0,0,0,0">
                             <Image Source="/Images/sentinel_logo_new25.png" Stretch="Fill">
                                 <Image.Effect>
-                                    <DropShadowEffect Color="Black" BlurRadius="15" ShadowDepth="5" Opacity="0.5" />
+                                    <DropShadowEffect Color="Black" BlurRadius="16" ShadowDepth="5" Opacity="0.5" />
                                 </Image.Effect>
                             </Image>
                         </Grid>

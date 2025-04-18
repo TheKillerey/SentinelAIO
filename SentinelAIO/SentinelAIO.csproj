@@ -15,6 +15,7 @@
         <Title>SentinelAIO</Title>
         <Authors>TheKillerey</Authors>
         <Description>A tool to help map modding in League of Legends</Description>
+        <IsPackable>false</IsPackable>
     </PropertyGroup>
 
     <ItemGroup>
