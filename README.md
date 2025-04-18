@@ -4,19 +4,42 @@ Welcome to **SentinelAIO**, a powerful and user-friendly tool designed to help y
 
 
 ## **Features**
-- **Modding Tools**:
-    - Modify and create custom maps easily using the intuitive interface.
-    - Tools include precise options to assist in applying patches or tweaks specifically tailored for League of Legends maps.
+### **Core Features (Mostly Working)**
+- **Recolor Maps Using 3D LUT**:
+    - Apply 3D Look-Up Tables to recolor and stylize map textures in the game.
 
-- **Automatic Updates**:
-    - Built-in functionality to auto-update important modding hashes to keep up-to-date with game patches.
+- **Create Map Mod Templates**:
+    - Easily build templates for map modifications to streamline future modding.
 
-- **Patch Integrity Fixer**:
-    - A tool to fix patching-related issues in League of Legends files seamlessly, with real-time logging for error tracking.
+- **Faster Map Changes**:
+    - Perform instantaneous map swaps (e.g., `Base_SRX` to `boba_srs`).
 
-- **Flexible Settings**:
-    - Configure League of Legends installation folders for better management.
-    - Save and retrieve settings through the streamlined settings dialog.
+- **Change Champion Skins**:
+    - Quickly change skins for all map related champions in your project. (e.g., `skin0.bin` to `skin12`). (Usefull for Minion or Turret Skin changes)
+
+- **Rey's Rito Patch Fixer**:
+    - Fix patch-related issues in League of Legends seamlessly. UI Version of Rey's Rito Fixer
+
+- **Fixing Rito's Images (.dds)**:
+    - Automatically fix `.dds` image files to match correct optimization DXT1, DXT5, .....
+
+- **Remove Not Needed Textures**:
+    - Clean up unused textures in mod files to reduce size and optimize performance.
+
+- **Download Patch Files**:
+    - Fetch patch files directly from League of Legends' servers.
+    - Uses [Morilli/riot-manifests](https://github.com/Morilli/riot-manifests/tree/master/LoL) for patch file references.
+
+- **Matrix Helper**:
+    - Includes a matrix management tool for better visualization and assistance during modding processes.
+
+### **Planned/Non-Functional Features**:
+- **Mesh Editor**:
+    - Future tool to edit meshes directly in the application.
+
+- **Mod Updater**:
+    - Planned feature to keep mods updated with new game patches automatically.
+
 
 ## **Technologies Used**
 The project leverages the following technologies to deliver a stellar user experience:
@@ -38,6 +61,8 @@ Special thanks to the open-source community for providing tools and resources th
 - [**LeagueToolkit**](https://github.com/LeagueToolkit/LeagueToolkit)
 - [**MaterialDesignInXamlToolkit**](https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit)
 - [**Newtonsoft.Json**](https://github.com/JamesNK/Newtonsoft.Json)
+- [**Morilli/riot-manifests**](https://github.com/Morilli/riot-manifests/tree/master/LoL)
+- [**moonshadow565/rman**](https://github.com/moonshadow565/rman)
 
 ## **License**
 This project is licensed under the **MIT License** - feel free to use, modify, and distribute as per the terms of the license.
